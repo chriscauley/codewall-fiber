@@ -1,0 +1,45 @@
+.home-hero {
+  @apply bg-cream;
+  font-size: 19px;
+  &__pre-header {
+    @apply flex items-center;
+    margin-bottom: 18px;
+    svg {
+      margin-right: 6px;
+    }
+    span {
+      padding-left: 10px;
+    }
+  }
+  h1 {
+    font-size: 58px;
+    font-family: Helvetica;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 16px;
+  }
+  p {
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+}
+
+.home-hero {
+  &__inner {
+    @apply container flex mx-auto;
+  }
+  &__left {
+    padding-top: 85px;
+    padding-right: 30px;
+    width: 615px;
+  }
+  &__right {
+    width: 525px;
+  }
+  &__perk-list {
+    @apply flex gap-x-2 mb-6
+  }
+  &__perk {
+    @apply flex;
+  }
+}

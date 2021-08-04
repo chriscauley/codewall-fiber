@@ -1,0 +1,17 @@
+.site-nav {
+  @apply bg-cream pt-10;
+  padding-bottom: 82px;
+  font-size: 19px;
+  &__center {
+    @apply flex items-center justify-center;
+    gap: 24px;
+    padding-left: 211px;
+  }
+  &__inner {
+    @apply container mx-auto flex items-center justify-between;
+  }
+  &__right {
+    @apply flex gap-x-4;
+  }
+}
+

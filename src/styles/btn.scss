@@ -1,0 +1,10 @@
+.btn {
+  @apply font-bold rounded-md;
+  padding: 0 30px;
+  height: 60px;
+  font-size: 18px;
+  leter-spacing: 0.3px;
+  &.-primary {
+    @apply bg-purple text-white;
+  }
+}
